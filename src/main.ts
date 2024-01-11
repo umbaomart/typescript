@@ -173,3 +173,31 @@
 // } //- End Unions Types
 
 // Intersection Types
+// interface Person {
+//   name: string;
+//   age: number;
+// }
+// interface Todo {
+//   complete?: boolean;
+// }
+// // interface PersonWithId extends Person { id: string }
+// interface PersonWithId extends Person, Todo {}
+// const person: Person = { name: "Kyle", age: 28 };
+// const personWithId: PersonWithId = { name: "Kyle", age: 28 };
+//- End Intersection Types
+
+// Readonly Types - can't be changed
+// type Person = {
+//   readonly id: number,
+//   name: string,
+//   age: number
+// }
+// const person: Person = {
+//   id: 1,
+//   name: "Kyle",
+//   age: 28
+// }
+// person.id = 5
+// type NumberArray = readonly number[]
+// const nums: NumberArray = [1, 2, 3]
+//- End Readonly Types
