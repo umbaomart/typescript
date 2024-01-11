@@ -23,3 +23,10 @@
 // const a = fetch('sdfds').then(res => res.json()).then(data => {
 //   data
 // })
+
+// Object
+const person: { name: string; age: number; isProgrammer?: boolean } = {
+  name: "Kyle",
+  age: 28,
+};
+person.isProgrammer = true;
