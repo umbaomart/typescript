@@ -201,3 +201,14 @@
 // type NumberArray = readonly number[]
 // const nums: NumberArray = [1, 2, 3]
 //- End Readonly Types
+
+// Keyof Types
+type Person = {
+  name: string
+  age: number
+  isProgrammer?: boolean
+}
+const age = getValue("age", { name: "Kyle", age: 28 })
+function getValue(key: keyof Person, person: Person) {
+  return person[key]
+}
