@@ -98,8 +98,35 @@
 //   return a + b;
 // }
 // const c = sum(1, 2); // c is a number thanks typescript
-function printPerson(person: { name: string }) {
-  console.log(person.name);
+// function printPerson(person: { name: string }) {
+//   console.log(person.name);
+// }
+// const person = { name: "Kyle", age: 28 };
+// printPerson(person);
+
+// Optional Parameters
+// function printNameAndAge(name: string, options?: { debugMode: boolean}) {
+//   console.log(name, options?.debugMode);
+// }
+// // printNameAndAge("Kyle", { debugMode: true});
+// printNameAndAge("Kyle");
+
+// Destrcuturing
+// type Option = {
+//   debugMode?: boolean
+//   indentLevel?: number
+// };
+// function printNameAndAge(
+//   name: string,
+//   { debugMode = false, indentLevel}: Option = {}
+// ) {
+//   console.log(name, debugMode, indentLevel);
+// }
+// printNameAndAge("Kyle");
+
+// Rest Parameters
+function sum(...nums: number[]) {
+  return nums;
 }
-const person = { name: "Kyle", age: 28 };
-printPerson(person);
+console.log(sum(1, 2, 3, 4, 5));
+console.log(sum(1, 2));
