@@ -14,7 +14,7 @@
 // a = [1, 2, 3]
 
 // Date
-// const today: Date = new Date()
+// const today: Date = new Date() //- End Assigning types to variables
 
 // Any Type // Never use any bad code for TypeScript
 // let a // let a: any = 4
@@ -22,7 +22,7 @@
 // a = "Hello"
 // const a = fetch('sdfds').then(res => res.json()).then(data => {
 //   data
-// })
+// }) //- End Any Type
 
 // Object
 // const person: { name: string; age: number; isProgrammer?: boolean } = {
@@ -58,7 +58,7 @@
 //   address: {
 //     street: 'Main'
 //   }
-// };
+// }; //- End Object Types
 
 // Object Interfaces - same as type but can be used for classes as well
 // - Can't be used for non-object types
@@ -88,7 +88,7 @@
 //   address: {
 //     street: 'Main'
 //   }
-// };
+// }; //- End Object Interfaces
 
 // Defining Functions
 // function printName(name: string, name2: string) {
@@ -102,14 +102,14 @@
 //   console.log(person.name);
 // }
 // const person = { name: "Kyle", age: 28 };
-// printPerson(person);
+// printPerson(person); //- End Defining Functions
 
 // Optional Parameters
 // function printNameAndAge(name: string, options?: { debugMode: boolean}) {
 //   console.log(name, options?.debugMode);
 // }
 // // printNameAndAge("Kyle", { debugMode: true});
-// printNameAndAge("Kyle");
+// printNameAndAge("Kyle"); //- End Optional Parameters
 
 // Destrcuturing
 // type Option = {
@@ -122,11 +122,54 @@
 // ) {
 //   console.log(name, debugMode, indentLevel);
 // }
-// printNameAndAge("Kyle");
+// printNameAndAge("Kyle"); //- End Defrcuturing
 
 // Rest Parameters
-function sum(...nums: number[]) {
-  return nums;
-}
-console.log(sum(1, 2, 3, 4, 5));
-console.log(sum(1, 2));
+// function sum(...nums: number[]) {
+//   return nums;
+// }
+// console.log(sum(1, 2, 3, 4, 5));
+// console.log(sum(1, 2)); //- End Defining Functions
+
+// Typing variables as Functions
+// function sumWithCallback(a: number, b: number, cb: (sum: number) => void) {
+//   cb(a + b);
+// }
+// sumWithCallback(1, 2, (result) => {
+//   console.log(result);
+// });
+// type PrintNameFunc = (name: string) => number
+// function f(name: string) {
+//   return 2
+// } //- End Typing variables as Functions
+
+// Unions Types
+// let id: string | number | boolean = 7
+// id = '7'
+// id = true
+
+// type Person = {
+//   id: number | string
+//   isProgrammer: boolean | undefined
+//   status: string
+// }
+
+// type Todo = {
+//   name: string
+//   status: "Complete" | "Incomplete" | "Draft"
+// }
+
+// // type TodoPerson = Todo | Person
+// type TodoPerson =
+//   | Todo
+//   | {
+//     name: string
+//     age: number
+//   }
+
+// const todo: Todo = {
+//   name: "Laundy",
+//   status: "Complete",
+// } //- End Unions Types
+
+// Intersection Types
