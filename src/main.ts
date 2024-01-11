@@ -25,8 +25,67 @@
 // })
 
 // Object
-const person: { name: string; age: number; isProgrammer?: boolean } = {
+// const person: { name: string; age: number; isProgrammer?: boolean } = {
+//   name: "Kyle",
+//   age: 28,
+// };
+// person.isProgrammer = true;
+
+// Object Types - same as interface but can be used for classes as well
+// type Person = {
+//   name: string;
+//   age: number;
+//   isProgrammer?: boolean;
+//   friends: string[];
+//   address: {
+//     street: string;
+//   }
+// };
+
+// const person: Person = {
+//   name: "Kyle",
+//   age: 28,
+//   friends: ["Sara", "John"],
+//   address: {
+//     street: 'Main'
+//   }
+// };
+
+// const person2: Person = {
+//   name: "Sara",
+//   age: 25,
+//   friends: [],
+//   address: {
+//     street: 'Main'
+//   }
+// };
+
+// Object Interfaces - same as type but can be used for classes as well
+// - Can't be used for non-object types
+type Person = {
+  name: string;
+  age: number;
+  isProgrammer?: boolean;
+  friends: string[];
+  address: {
+    street: string;
+  }
+};
+
+const person: Person = {
   name: "Kyle",
   age: 28,
+  friends: ["Sara", "John"],
+  address: {
+    street: 'Main'
+  }
 };
-person.isProgrammer = true;
+
+const person2: Person = {
+  name: "Sara",
+  age: 25,
+  friends: [],
+  address: {
+    street: 'Main'
+  }
+};
