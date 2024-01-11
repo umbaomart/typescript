@@ -27,3 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 - [Vite](https://vitejs.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+## Recommendation
+
+- [TSConfigs](https://github.com/tsconfig/bases)
