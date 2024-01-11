@@ -62,30 +62,44 @@
 
 // Object Interfaces - same as type but can be used for classes as well
 // - Can't be used for non-object types
-type Person = {
-  name: string;
-  age: number;
-  isProgrammer?: boolean;
-  friends: string[];
-  address: {
-    street: string;
-  }
-};
+// type Person = {
+//   name: string;
+//   age: number;
+//   isProgrammer?: boolean;
+//   friends: string[];
+//   address: {
+//     street: string;
+//   }
+// };
 
-const person: Person = {
-  name: "Kyle",
-  age: 28,
-  friends: ["Sara", "John"],
-  address: {
-    street: 'Main'
-  }
-};
+// const person: Person = {
+//   name: "Kyle",
+//   age: 28,
+//   friends: ["Sara", "John"],
+//   address: {
+//     street: 'Main'
+//   }
+// };
 
-const person2: Person = {
-  name: "Sara",
-  age: 25,
-  friends: [],
-  address: {
-    street: 'Main'
-  }
-};
+// const person2: Person = {
+//   name: "Sara",
+//   age: 25,
+//   friends: [],
+//   address: {
+//     street: 'Main'
+//   }
+// };
+
+// Defining Functions
+// function printName(name: string, name2: string) {
+//   console.log(name, name2);
+// }
+// function sum(a: number, b: number): number {
+//   return a + b;
+// }
+// const c = sum(1, 2); // c is a number thanks typescript
+function printPerson(person: { name: string }) {
+  console.log(person.name);
+}
+const person = { name: "Kyle", age: 28 };
+printPerson(person);
