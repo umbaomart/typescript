@@ -203,12 +203,25 @@
 //- End Readonly Types
 
 // Keyof Types
-type Person = {
-  name: string
-  age: number
-  isProgrammer?: boolean
+// type Person = {
+//   name: string
+//   age: number
+//   isProgrammer?: boolean
+// }
+// const age = getValue("age", { name: "Kyle", age: 28 })
+// function getValue(key: keyof Person, person: Person) {
+//   return person[key]
+// } //- End Keyof Types
+
+// Typeof Types
+// const person = { name: "Kyle", age: 28 };
+// const people: (typeof person)[] = [];
+
+// people.push(person);
+// people.push({ name: "Sally", age: 27 });
+// people.push(2)
+
+function sayHi(name: string) {
+  console.log("Name:", name);
 }
-const age = getValue("age", { name: "Kyle", age: 28 })
-function getValue(key: keyof Person, person: Person) {
-  return person[key]
-}
+type FuncType = typeof sayHi;
