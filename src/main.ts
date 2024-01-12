@@ -227,5 +227,9 @@
 // type FuncType = typeof sayHi;
 
 import {L21_IndexTypes} from './L21_IndexTypes'
+import { L22_ConstAndEnums } from './L22_ConstAndEnums';
+import { L23_Tuples } from './L23_Tuples';
 
 L21_IndexTypes();
+L22_ConstAndEnums();
+L23_Tuples();

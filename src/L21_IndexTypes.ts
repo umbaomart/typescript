@@ -33,6 +33,6 @@ export function L21_IndexTypes() {
     // type A = (typeof a)["name"]
     type A = (typeof a)[keyof typeof a]
 
-    console.log(a);
+    // console.log(a);
 
 }
