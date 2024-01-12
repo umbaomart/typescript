@@ -221,7 +221,11 @@
 // people.push({ name: "Sally", age: 27 });
 // people.push(2)
 
-function sayHi(name: string) {
-  console.log("Name:", name);
-}
-type FuncType = typeof sayHi;
+// function sayHi(name: string) {
+//   console.log("Name:", name);
+// }
+// type FuncType = typeof sayHi;
+
+import {L21_IndexTypes} from './L21_IndexTypes'
+
+L21_IndexTypes();
