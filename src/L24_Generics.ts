@@ -77,24 +77,16 @@ export function L24_Generics() {
         const obj: {
             [index: string]: T
         } = {}
-
         array.forEach(([key, value]) => {
             obj[key] = value
         })
-
-        console.log(obj);
         return obj
     }
-
 
     const arr = [
         ["key1", "value1"],
         ["key2", "value2"],
         ["key3", true],
     ]
-
     const a = atoO(arr);
-
-    console.log(a);
-
 }

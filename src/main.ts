@@ -230,8 +230,10 @@ import {L21_IndexTypes} from './L21_IndexTypes'
 import { L22_ConstAndEnums } from './L22_ConstAndEnums';
 import { L23_Tuples } from './L23_Tuples';
 import { L24_Generics } from './L24_Generics';
+import { L25_AsyncFunc } from './L25_AsyncFunc';
 
 L21_IndexTypes();
 L22_ConstAndEnums();
 L23_Tuples();
 L24_Generics();
+L25_AsyncFunc();
