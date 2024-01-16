@@ -237,6 +237,8 @@ import L28_ReturnTypeAndParameters from './L28_ReturnTypeAndParameters';
 import { L29_Record } from './L29_Record';
 import { L30_Readonly } from './L30_Readonly';
 import { L31_Awaited } from './L31_Awaited';
+import L32_BasicTypeGuards from './L32_BasicTypeGuards';
+import { L33_NeverType } from './L33_NeverType';
 
 
 L21_IndexTypes();
@@ -250,3 +252,5 @@ L28_ReturnTypeAndParameters();
 L29_Record();
 L30_Readonly();
 L31_Awaited();
+L32_BasicTypeGuards();
+L33_NeverType();
