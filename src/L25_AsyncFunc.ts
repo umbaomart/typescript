@@ -15,8 +15,7 @@ export function L25_AsyncFunc() {
         return await fetch("sdfg")
     }
     wait(1000).then(value => {
-        console.log(value.json);
-
+        // console.log(value.json);
     })
     // - End Async Await
 }
