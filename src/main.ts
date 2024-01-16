@@ -233,6 +233,7 @@ import { L24_Generics } from './L24_Generics';
 import { L25_AsyncFunc } from './L25_AsyncFunc';
 import { L26_PickAndOmit } from './L26_PickAndOmit';
 import { L27_PartialAndRequired } from './L27_PartialAndRequired';
+import L28_ReturnTypeAndParameters from './L28_ReturnTypeAndParameters';
 
 
 L21_IndexTypes();
@@ -242,3 +243,4 @@ L24_Generics();
 L25_AsyncFunc();
 L26_PickAndOmit();
 L27_PartialAndRequired();
+L28_ReturnTypeAndParameters();

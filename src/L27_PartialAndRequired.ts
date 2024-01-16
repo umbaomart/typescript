@@ -46,5 +46,5 @@ export function L27_PartialAndRequired() {
         completed: true,
     }
 
-    console.log(todo);
+    // console.log(todo);
 }
