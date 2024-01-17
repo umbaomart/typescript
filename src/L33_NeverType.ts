@@ -15,7 +15,7 @@ export function L33_NeverType() {
         dueDate: new Date()
     }
 
-    extendTodo(userTodo);
+    // extendTodo(userTodo);
 
     function extendTodo(todo: Todo) {
         switch (todo.priority) {
