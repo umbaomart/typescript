@@ -239,6 +239,7 @@ import { L30_Readonly } from './L30_Readonly';
 import { L31_Awaited } from './L31_Awaited';
 import L32_BasicTypeGuards from './L32_BasicTypeGuards';
 import { L33_NeverType } from './L33_NeverType';
+import { L34_UnknownType } from './L34_UnknownType';
 
 
 L21_IndexTypes();
@@ -254,3 +255,4 @@ L30_Readonly();
 L31_Awaited();
 L32_BasicTypeGuards();
 L33_NeverType();
+L34_UnknownType();
