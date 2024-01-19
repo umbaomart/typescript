@@ -30,10 +30,13 @@ export function L35_Casting() {
     }
 
     function func(data: unknown) {
-        fetch("sdfds").then(res => res.json).then(data => {
+        fetch("sdfds").then(res => res.json()).then(data => {
             return data as Todo
         }).then(todo => {
-
         })
     }
+
+    const a: any = 2;
+    (a as string).length
+    const b = a as string;
 }
