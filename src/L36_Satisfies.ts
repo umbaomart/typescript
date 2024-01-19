@@ -13,6 +13,6 @@ export function L36_Satisfies() {
 
     todo.dueDate.setDate(4)
 
-    console.log(todo);
+    // console.log(todo);
 
 }

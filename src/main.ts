@@ -242,6 +242,7 @@ import { L33_NeverType } from './L33_NeverType';
 import { L34_UnknownType } from './L34_UnknownType';
 import { L35_Casting } from './L35_Casting';
 import { L36_Satisfies } from './L36_Satisfies';
+import { L37_DiscriminatedUnion } from './L37_DiscriminatedUnion';
 
 L21_IndexTypes();
 L22_ConstAndEnums();
@@ -259,3 +260,4 @@ L33_NeverType();
 L34_UnknownType();
 L35_Casting();
 L36_Satisfies();
+L37_DiscriminatedUnion();
