@@ -243,6 +243,7 @@ import { L34_UnknownType } from './L34_UnknownType';
 import { L35_Casting } from './L35_Casting';
 import { L36_Satisfies } from './L36_Satisfies';
 import { L37_DiscriminatedUnion } from './L37_DiscriminatedUnion';
+import { L38_FunctionOverload } from './L38_FunctionOverload';
 
 L21_IndexTypes();
 L22_ConstAndEnums();
@@ -261,3 +262,4 @@ L34_UnknownType();
 L35_Casting();
 L36_Satisfies();
 L37_DiscriminatedUnion();
+L38_FunctionOverload();
