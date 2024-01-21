@@ -244,6 +244,7 @@ import { L35_Casting } from './L35_Casting';
 import { L36_Satisfies } from './L36_Satisfies';
 import { L37_DiscriminatedUnion } from './L37_DiscriminatedUnion';
 import { L38_FunctionOverload } from './L38_FunctionOverload';
+import { L39_TypePredicateFunction } from './L39_TypePredicateFunction';
 
 L21_IndexTypes();
 L22_ConstAndEnums();
@@ -263,3 +264,4 @@ L35_Casting();
 L36_Satisfies();
 L37_DiscriminatedUnion();
 L38_FunctionOverload();
+L39_TypePredicateFunction();

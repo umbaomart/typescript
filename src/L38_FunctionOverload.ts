@@ -14,8 +14,4 @@ export function L38_FunctionOverload() {
     const s1 = sum([1, 2])
     const s2 = sum([1, 2])
     const s3 = sum([1, 2], 5)
-
-    console.log(s1);
-    console.log(s2);
-    console.log(s3);
 }
