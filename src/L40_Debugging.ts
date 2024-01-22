@@ -8,7 +8,7 @@ export function L40_Debugging() {
     }
 
     function printNumber(num: number, options?: Options) {
-        console.log(num);
+        // console.log(num);
     }
 
     // printNumber(3, { debug: false, format: { tab: true } });

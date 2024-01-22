@@ -246,6 +246,7 @@ import { L37_DiscriminatedUnion } from './L37_DiscriminatedUnion';
 import { L38_FunctionOverload } from './L38_FunctionOverload';
 import { L39_TypePredicateFunction } from './L39_TypePredicateFunction';
 import { L40_Debugging } from './L40_Debugging';
+import { L41_ImportingTypes } from './L41_ImportingTypes';
 
 L21_IndexTypes();
 L22_ConstAndEnums();
@@ -267,3 +268,4 @@ L37_DiscriminatedUnion();
 L38_FunctionOverload();
 L39_TypePredicateFunction();
 L40_Debugging();
+L41_ImportingTypes();
