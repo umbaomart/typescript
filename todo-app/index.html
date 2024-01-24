@@ -8,21 +8,23 @@
   </head>
   <body>
     <!-- <div id="app"></div> -->
-    <ul id="list">
-      <li class="list-item">
-        <label for="list-item-label">
-          <input class="label-input" type="checkbox" name="" id="">
-          <span class="label-text">Placeholder Task</span>
-        </label>
-        <button class="delete-btn">Delete</button>
-      </li>
-    </ul>
+    <div class="wrapper">
+      <ul id="list">
+        <li class="list-item">
+          <label for="list-item-label">
+            <input class="label-input" type="checkbox" name="" id="">
+            <span class="label-text">Placeholder Task</span>
+          </label>
+          <button class="delete-btn">Delete</button>
+        </li>
+      </ul>
 
-    <form action="" id="new-todo-form">
-      <label for="todo-input">New Todo</label>
-      <input type="text" id="todo-input" name="todo-input">
-      <button type="submit">Add Todo</button>
-    </form>
+      <form action="" id="new-todo-form">
+        <label for="todo-input" class="label-text">New Todo</label>
+        <input type="text" id="todo-input" name="todo-input">
+        <button type="submit">Add Todo</button>
+      </form>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
