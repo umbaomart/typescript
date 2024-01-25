@@ -29,12 +29,18 @@ body {
 
 .list-item {
   display: flex;
+  margin-bottom: 8px;
   align-items: center;
   justify-content: space-between;
 }
 
+.list-item:has(input:checked) .label-text {
+  text-decoration: line-through;
+}
+
 .label-input {
   transform: scale(1.6);
+  margin: 0 8px 0 0;
 }
 
 .label-text {
@@ -44,7 +50,7 @@ body {
 
 button {
   font-size: 1.2rem;
-  /* padding: 8px 12px; */
+  padding: 8px 12px;
 }
 
 #todo-input {
@@ -67,4 +73,8 @@ button {
   font-size: 1.2rem;
   padding: 8px;
   display: block;
+}
+
+#new-todo-form button {
+  width: 100%;
 }
