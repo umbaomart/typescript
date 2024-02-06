@@ -18,7 +18,7 @@ export class DataResource<T> {
 
         return res
     }
-    async save(data: T) {
+    async save(data: T): Promise<Response> {
         const res = await fetch(`${this.endpoint}`, {
             method: 'POST',
             body: JSON.stringify(data),
@@ -26,5 +26,7 @@ export class DataResource<T> {
                 'Content-Type': 'application/json'
             }
         })
+
+        return res
     }
 }
