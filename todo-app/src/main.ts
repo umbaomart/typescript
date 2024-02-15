@@ -6,7 +6,6 @@ type Todo = {
     complete: boolean
 }
 
-// const form = document.getElementById("new-todo-form") as HTMLFormElement;
 const form = document.querySelector<HTMLFormElement>("#new-todo-form")!
 const todoInput = document.querySelector<HTMLInputElement>("#todo-input")!
 const list = document.querySelector<HTMLUListElement>("#list")!
