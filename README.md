@@ -14,14 +14,19 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 1. Clone the repo
-- git clone https://github.com/umbaomart/typescript
+```
+ git clone https://github.com/umbaomart/typescript
+```
 
 2. Install NPM packages
-- npm install
+```
+npm install
+```
 
 3. Run the project
-- npm run dev
-
+```
+npm run dev
+```
 
 ## Built With
 
